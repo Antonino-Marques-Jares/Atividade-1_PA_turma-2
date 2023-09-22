@@ -46,38 +46,38 @@ namespace MeuFormulario {
 
 
 
-	private: System::Windows::Forms::ComboBox^ cmbFiltro;
-	private: System::Windows::Forms::ComboBox^ cmbProcessamento;
+		private: System::Windows::Forms::ComboBox^ cmbFiltro;
+		private: System::Windows::Forms::ComboBox^ cmbProcessamento;
 	
-	private: System::Windows::Forms::PictureBox^ imgAntes;
-	private: System::Windows::Forms::PictureBox^ imgDepois;
+		private: System::Windows::Forms::PictureBox^ imgAntes;
+		private: System::Windows::Forms::PictureBox^ imgDepois;
 
-	private: System::Windows::Forms::Label^ lblTitulo;
-	private: System::Windows::Forms::Label^ lblFiltro;
-	private: System::Windows::Forms::Label^ lblProcessamento;
-	private: System::Windows::Forms::Label^ lblSubTitulo;
-	private: System::Windows::Forms::Label^ lblAntes;
-	private: System::Windows::Forms::Label^ lblDepois;
-	private: System::Windows::Forms::Label^ lblDescTempo;
-	private: System::Windows::Forms::Label^ lblTempo;
-	private: System::Windows::Forms::Button^ btnExecutar;
-	private: System::Windows::Forms::Label^ lblMensagem;
-	private: System::Windows::Forms::PictureBox^ pictureBox1;
-	private: System::Windows::Forms::Label^ lblProcessado;
+		private: System::Windows::Forms::Label^ lblTitulo;
+		private: System::Windows::Forms::Label^ lblFiltro;
+		private: System::Windows::Forms::Label^ lblProcessamento;
+		private: System::Windows::Forms::Label^ lblSubTitulo;
+		private: System::Windows::Forms::Label^ lblAntes;
+		private: System::Windows::Forms::Label^ lblDepois;
+		private: System::Windows::Forms::Label^ lblDescTempo;
+		private: System::Windows::Forms::Label^ lblTempo;
+		private: System::Windows::Forms::Button^ btnExecutar;
+		private: System::Windows::Forms::Label^ lblMensagem;
+		private: System::Windows::Forms::PictureBox^ pictureBox1;
+		private: System::Windows::Forms::Label^ lblProcessado;
 
-	protected:
+		protected:
 
-	private:
-		/// <summary>
-		/// Required designer variable.
-		/// </summary>
-		System::ComponentModel::Container ^components;
+		private:
+			/// <summary>
+			/// Required designer variable.
+			/// </summary>
+			System::ComponentModel::Container ^components;
 
-#pragma region Windows Form Designer generated code
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
+		#pragma region Windows Form Designer generated code
+			/// <summary>
+			/// Required method for Designer support - do not modify
+			/// the contents of this method with the code editor.
+			/// </summary>
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(frmPrincipal::typeid));
