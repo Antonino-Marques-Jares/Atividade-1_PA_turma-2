@@ -181,7 +181,7 @@
     <value>15, 194</value>
   </data>
   <data name="Input_Image_Box.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>5, 5, 5, 5</value>
   </data>
   <data name="Input_Image_Box.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>646, 482</value>
@@ -190,7 +190,7 @@
     <value>406, 369</value>
   </data>
   <data name="Input_Image_Box.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>CenterImage</value>
+    <value>StretchImage</value>
   </data>
   <data name="Input_Image_Box.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -211,7 +211,7 @@
     <value>439, 194</value>
   </data>
   <data name="Output_Image_Box.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>5, 5, 5, 5</value>
   </data>
   <data name="Output_Image_Box.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>646, 482</value>
@@ -220,7 +220,7 @@
     <value>406, 369</value>
   </data>
   <data name="Output_Image_Box.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>CenterImage</value>
+    <value>StretchImage</value>
   </data>
   <data name="Output_Image_Box.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>

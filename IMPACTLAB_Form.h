@@ -125,13 +125,16 @@ namespace IMPACTLABGUI2023 {
 				// Input_Image_Box
 				// 
 				this->Input_Image_Box->BackColor = System::Drawing::SystemColors::ControlLight;
+				this->Input_Image_Box->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 				resources->ApplyResources(this->Input_Image_Box, L"Input_Image_Box");
 				this->Input_Image_Box->Name = L"Input_Image_Box";
 				this->Input_Image_Box->TabStop = false;
+				this->Input_Image_Box->Click += gcnew System::EventHandler(this, &IMPACTLAB_Form::Input_Image_Box_Click);
 				// 
 				// Output_Image_Box
 				// 
 				this->Output_Image_Box->BackColor = System::Drawing::SystemColors::ControlLight;
+				this->Output_Image_Box->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 				resources->ApplyResources(this->Output_Image_Box, L"Output_Image_Box");
 				this->Output_Image_Box->Name = L"Output_Image_Box";
 				this->Output_Image_Box->TabStop = false;
@@ -218,7 +221,6 @@ namespace IMPACTLABGUI2023 {
 				// 
 				resources->ApplyResources(this, L"$this");
 				this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-				this->BackColor = System::Drawing::SystemColors::ControlLight;
 				this->Controls->Add(this->lblTempo);
 				this->Controls->Add(this->lblMensagem);
 				this->Controls->Add(this->label8);
@@ -415,6 +417,8 @@ namespace IMPACTLABGUI2023 {
 private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void Input_Image_Box_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 
