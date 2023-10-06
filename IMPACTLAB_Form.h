@@ -87,6 +87,7 @@ namespace IMPACTLABGUI2023 {
 			/// 
 			void InitializeComponent(void)
 			{
+				System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(IMPACTLAB_Form::typeid));
 				this->btopen = (gcnew System::Windows::Forms::Button());
 				this->btExit = (gcnew System::Windows::Forms::Button());
 				this->Input_Image_Box = (gcnew System::Windows::Forms::PictureBox());
@@ -109,198 +110,115 @@ namespace IMPACTLABGUI2023 {
 				// 
 				// btopen
 				// 
-				this->btopen->Location = System::Drawing::Point(21, 125);
-				this->btopen->Margin = System::Windows::Forms::Padding(4);
+				resources->ApplyResources(this->btopen, L"btopen");
 				this->btopen->Name = L"btopen";
-				this->btopen->Size = System::Drawing::Size(101, 61);
-				this->btopen->TabIndex = 0;
-				this->btopen->Text = L"Open";
 				this->btopen->UseVisualStyleBackColor = true;
 				this->btopen->Click += gcnew System::EventHandler(this, &IMPACTLAB_Form::btopen_Click);
 				// 
 				// btExit
 				// 
-				this->btExit->Font = (gcnew System::Drawing::Font(L"Arial", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-					static_cast<System::Byte>(0)));
-				this->btExit->Location = System::Drawing::Point(780, 707);
-				this->btExit->Margin = System::Windows::Forms::Padding(4);
+				resources->ApplyResources(this->btExit, L"btExit");
 				this->btExit->Name = L"btExit";
-				this->btExit->Size = System::Drawing::Size(170, 54);
-				this->btExit->TabIndex = 2;
-				this->btExit->Text = L"Exit";
 				this->btExit->UseVisualStyleBackColor = true;
 				this->btExit->Click += gcnew System::EventHandler(this, &IMPACTLAB_Form::btExit_Click);
 				// 
 				// Input_Image_Box
 				// 
 				this->Input_Image_Box->BackColor = System::Drawing::SystemColors::ControlLight;
-				this->Input_Image_Box->Location = System::Drawing::Point(15, 281);
-				this->Input_Image_Box->Margin = System::Windows::Forms::Padding(4);
-				this->Input_Image_Box->MaximumSize = System::Drawing::Size(646, 482);
+				resources->ApplyResources(this->Input_Image_Box, L"Input_Image_Box");
 				this->Input_Image_Box->Name = L"Input_Image_Box";
-				this->Input_Image_Box->Size = System::Drawing::Size(406, 369);
-				this->Input_Image_Box->SizeMode = System::Windows::Forms::PictureBoxSizeMode::CenterImage;
-				this->Input_Image_Box->TabIndex = 4;
 				this->Input_Image_Box->TabStop = false;
 				// 
 				// Output_Image_Box
 				// 
 				this->Output_Image_Box->BackColor = System::Drawing::SystemColors::ControlLight;
-				this->Output_Image_Box->Location = System::Drawing::Point(540, 281);
-				this->Output_Image_Box->Margin = System::Windows::Forms::Padding(4);
-				this->Output_Image_Box->MaximumSize = System::Drawing::Size(646, 482);
+				resources->ApplyResources(this->Output_Image_Box, L"Output_Image_Box");
 				this->Output_Image_Box->Name = L"Output_Image_Box";
-				this->Output_Image_Box->Size = System::Drawing::Size(406, 369);
-				this->Output_Image_Box->SizeMode = System::Windows::Forms::PictureBoxSizeMode::CenterImage;
-				this->Output_Image_Box->TabIndex = 24;
 				this->Output_Image_Box->TabStop = false;
 				// 
 				// label1
 				// 
-				this->label1->AutoSize = true;
-				this->label1->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-					static_cast<System::Byte>(0)));
-				this->label1->Location = System::Drawing::Point(281, 18);
-				this->label1->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				resources->ApplyResources(this->label1, L"label1");
+				this->label1->ForeColor = System::Drawing::SystemColors::HotTrack;
 				this->label1->Name = L"label1";
-				this->label1->Size = System::Drawing::Size(372, 24);
-				this->label1->TabIndex = 25;
-				this->label1->Text = L"Grupo II - Turma II - PAVIC LAB - UFAC";
+				this->label1->Click += gcnew System::EventHandler(this, &IMPACTLAB_Form::label1_Click);
 				// 
 				// label2
 				// 
-				this->label2->AutoSize = true;
-				this->label2->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-					static_cast<System::Byte>(0)));
-				this->label2->Location = System::Drawing::Point(331, 42);
-				this->label2->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				resources->ApplyResources(this->label2, L"label2");
+				this->label2->ForeColor = System::Drawing::SystemColors::HotTrack;
 				this->label2->Name = L"label2";
-				this->label2->Size = System::Drawing::Size(271, 24);
-				this->label2->TabIndex = 26;
-				this->label2->Text = L"Processamento de Imagens";
+				this->label2->Click += gcnew System::EventHandler(this, &IMPACTLAB_Form::label2_Click);
 				// 
 				// cmbFiltro
 				// 
+				resources->ApplyResources(this->cmbFiltro, L"cmbFiltro");
 				this->cmbFiltro->FormattingEnabled = true;
-				this->cmbFiltro->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"CONVERTER PARA VERMELHO ", L"NEGATIVO", L"RGB TO GRAYSCALE" });
-				this->cmbFiltro->Location = System::Drawing::Point(540, 112);
-				this->cmbFiltro->Margin = System::Windows::Forms::Padding(4);
+				this->cmbFiltro->Items->AddRange(gcnew cli::array< System::Object^  >(3) {
+					resources->GetString(L"cmbFiltro.Items"), resources->GetString(L"cmbFiltro.Items1"),
+						resources->GetString(L"cmbFiltro.Items2")
+				});
 				this->cmbFiltro->Name = L"cmbFiltro";
-				this->cmbFiltro->Size = System::Drawing::Size(406, 32);
-				this->cmbFiltro->TabIndex = 27;
 				// 
 				// cmbProcessamento
 				// 
+				resources->ApplyResources(this->cmbProcessamento, L"cmbProcessamento");
 				this->cmbProcessamento->FormattingEnabled = true;
-				this->cmbProcessamento->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"CPU", L"GPU" });
-				this->cmbProcessamento->Location = System::Drawing::Point(540, 191);
-				this->cmbProcessamento->Margin = System::Windows::Forms::Padding(4);
+				this->cmbProcessamento->Items->AddRange(gcnew cli::array< System::Object^  >(2) {
+					resources->GetString(L"cmbProcessamento.Items"),
+						resources->GetString(L"cmbProcessamento.Items1")
+				});
 				this->cmbProcessamento->Name = L"cmbProcessamento";
-				this->cmbProcessamento->Size = System::Drawing::Size(406, 32);
-				this->cmbProcessamento->TabIndex = 28;
 				// 
 				// label3
 				// 
-				this->label3->AutoSize = true;
-				this->label3->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-					static_cast<System::Byte>(0)));
-				this->label3->Location = System::Drawing::Point(536, 84);
-				this->label3->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				resources->ApplyResources(this->label3, L"label3");
 				this->label3->Name = L"label3";
-				this->label3->Size = System::Drawing::Size(66, 24);
-				this->label3->TabIndex = 29;
-				this->label3->Text = L"Filtro:";
 				// 
 				// label4
 				// 
-				this->label4->AutoSize = true;
-				this->label4->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-					static_cast<System::Byte>(0)));
-				this->label4->Location = System::Drawing::Point(536, 162);
-				this->label4->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				resources->ApplyResources(this->label4, L"label4");
 				this->label4->Name = L"label4";
-				this->label4->Size = System::Drawing::Size(164, 24);
-				this->label4->TabIndex = 30;
-				this->label4->Text = L"Processamento:";
 				// 
 				// label5
 				// 
-				this->label5->AutoSize = true;
-				this->label5->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-					static_cast<System::Byte>(0)));
-				this->label5->Location = System::Drawing::Point(11, 253);
-				this->label5->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				resources->ApplyResources(this->label5, L"label5");
 				this->label5->Name = L"label5";
-				this->label5->Size = System::Drawing::Size(71, 24);
-				this->label5->TabIndex = 31;
-				this->label5->Text = L"Antes:";
 				// 
 				// label7
 				// 
-				this->label7->AutoSize = true;
-				this->label7->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-					static_cast<System::Byte>(0)));
-				this->label7->Location = System::Drawing::Point(536, 253);
-				this->label7->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				resources->ApplyResources(this->label7, L"label7");
 				this->label7->Name = L"label7";
-				this->label7->Size = System::Drawing::Size(82, 24);
-				this->label7->TabIndex = 33;
-				this->label7->Text = L"Depois:";
 				// 
 				// btnExecutar
 				// 
-				this->btnExecutar->Font = (gcnew System::Drawing::Font(L"Arial", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-					static_cast<System::Byte>(0)));
-				this->btnExecutar->Location = System::Drawing::Point(544, 709);
-				this->btnExecutar->Margin = System::Windows::Forms::Padding(4);
+				resources->ApplyResources(this->btnExecutar, L"btnExecutar");
 				this->btnExecutar->Name = L"btnExecutar";
-				this->btnExecutar->Size = System::Drawing::Size(187, 52);
-				this->btnExecutar->TabIndex = 34;
-				this->btnExecutar->Text = L"Executar";
 				this->btnExecutar->UseVisualStyleBackColor = true;
 				this->btnExecutar->Click += gcnew System::EventHandler(this, &IMPACTLAB_Form::button1_Click);
 				// 
 				// label8
 				// 
-				this->label8->AutoSize = true;
-				this->label8->Font = (gcnew System::Drawing::Font(L"Arial", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-					static_cast<System::Byte>(0)));
-				this->label8->Location = System::Drawing::Point(9, 654);
-				this->label8->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+				resources->ApplyResources(this->label8, L"label8");
 				this->label8->Name = L"label8";
-				this->label8->Size = System::Drawing::Size(493, 33);
-				this->label8->TabIndex = 35;
-				this->label8->Text = L"Tempo de execução em segundos :";
 				// 
 				// lblMensagem
 				// 
-				this->lblMensagem->AutoSize = true;
+				resources->ApplyResources(this->lblMensagem, L"lblMensagem");
 				this->lblMensagem->ForeColor = System::Drawing::Color::IndianRed;
-				this->lblMensagem->Location = System::Drawing::Point(13, 693);
-				this->lblMensagem->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 				this->lblMensagem->Name = L"lblMensagem";
-				this->lblMensagem->Size = System::Drawing::Size(28, 24);
-				this->lblMensagem->TabIndex = 36;
-				this->lblMensagem->Text = L"...";
 				// 
 				// lblTempo
 				// 
-				this->lblTempo->AutoSize = true;
-				this->lblTempo->Font = (gcnew System::Drawing::Font(L"Arial", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-					static_cast<System::Byte>(0)));
+				resources->ApplyResources(this->lblTempo, L"lblTempo");
 				this->lblTempo->ForeColor = System::Drawing::SystemColors::Highlight;
-				this->lblTempo->Location = System::Drawing::Point(534, 654);
-				this->lblTempo->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 				this->lblTempo->Name = L"lblTempo";
-				this->lblTempo->Size = System::Drawing::Size(31, 33);
-				this->lblTempo->TabIndex = 37;
-				this->lblTempo->Text = L"0";
 				// 
 				// IMPACTLAB_Form
 				// 
-				this->AutoScaleDimensions = System::Drawing::SizeF(12, 24);
+				resources->ApplyResources(this, L"$this");
 				this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-				this->ClientSize = System::Drawing::Size(981, 773);
+				this->BackColor = System::Drawing::SystemColors::ControlLight;
 				this->Controls->Add(this->lblTempo);
 				this->Controls->Add(this->lblMensagem);
 				this->Controls->Add(this->label8);
@@ -317,10 +235,9 @@ namespace IMPACTLABGUI2023 {
 				this->Controls->Add(this->Input_Image_Box);
 				this->Controls->Add(this->btExit);
 				this->Controls->Add(this->btopen);
-				this->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
-				this->Margin = System::Windows::Forms::Padding(4);
+				this->ForeColor = System::Drawing::Color::Black;
 				this->Name = L"IMPACTLAB_Form";
-				this->Text = L"IMPACTLAB PROJECT 2023";
+				this->Load += gcnew System::EventHandler(this, &IMPACTLAB_Form::IMPACTLAB_Form_Load);
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Input_Image_Box))->EndInit();
 				(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->Output_Image_Box))->EndInit();
 				this->ResumeLayout(false);
@@ -493,6 +410,12 @@ namespace IMPACTLABGUI2023 {
 				this->lblTempo->Text = duracao.count().ToString();
 			};
 
-	};
+	private: System::Void IMPACTLAB_Form_Load(System::Object^ sender, System::EventArgs^ e) {
+	}
+private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+};
 
 }
