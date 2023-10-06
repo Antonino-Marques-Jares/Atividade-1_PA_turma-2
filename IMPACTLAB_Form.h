@@ -221,6 +221,7 @@ namespace IMPACTLABGUI2023 {
 				// 
 				resources->ApplyResources(this, L"$this");
 				this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+				this->BackColor = System::Drawing::SystemColors::ButtonFace;
 				this->Controls->Add(this->lblTempo);
 				this->Controls->Add(this->lblMensagem);
 				this->Controls->Add(this->label8);

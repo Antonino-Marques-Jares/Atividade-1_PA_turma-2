@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btopen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 91</value>
+    <value>19, 18</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btopen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
@@ -151,7 +151,7 @@
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="btExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>858, 509</value>
+    <value>860, 544</value>
   </data>
   <data name="btExit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -178,7 +178,7 @@
     <value>14</value>
   </data>
   <data name="Input_Image_Box.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 194</value>
+    <value>17, 229</value>
   </data>
   <data name="Input_Image_Box.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 5, 5, 5</value>
@@ -208,7 +208,7 @@
     <value>13</value>
   </data>
   <data name="Output_Image_Box.Location" type="System.Drawing.Point, System.Drawing">
-    <value>439, 194</value>
+    <value>441, 229</value>
   </data>
   <data name="Output_Image_Box.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 5, 5, 5</value>
@@ -244,7 +244,7 @@
     <value>Arial, 16.2pt, style=Bold</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>413, 31</value>
+    <value>443, 13</value>
   </data>
   <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -277,7 +277,7 @@
     <value>Arial, 16.2pt, style=Bold</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>495, 91</value>
+    <value>443, 46</value>
   </data>
   <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -316,7 +316,7 @@
     <value>RGB TO GRAYSCALE</value>
   </data>
   <data name="cmbFiltro.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 41</value>
+    <value>17, 137</value>
   </data>
   <data name="cmbFiltro.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -349,7 +349,7 @@
     <value>GPU</value>
   </data>
   <data name="cmbProcessamento.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 120</value>
+    <value>439, 138</value>
   </data>
   <data name="cmbProcessamento.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -379,7 +379,7 @@
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 13</value>
+    <value>13, 109</value>
   </data>
   <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -412,7 +412,7 @@
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 91</value>
+    <value>435, 109</value>
   </data>
   <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -445,7 +445,7 @@
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 166</value>
+    <value>13, 201</value>
   </data>
   <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -478,7 +478,7 @@
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>435, 166</value>
+    <value>437, 201</value>
   </data>
   <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -508,7 +508,7 @@
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="btnExecutar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>858, 354</value>
+    <value>860, 389</value>
   </data>
   <data name="btnExecutar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -541,7 +541,7 @@
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 567</value>
+    <value>11, 602</value>
   </data>
   <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -574,7 +574,7 @@
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="lblMensagem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 606</value>
+    <value>15, 641</value>
   </data>
   <data name="lblMensagem.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -607,7 +607,7 @@
     <value>Arial, 12pt, style=Bold</value>
   </data>
   <data name="lblTempo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>433, 567</value>
+    <value>435, 602</value>
   </data>
   <data name="lblTempo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -646,7 +646,7 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>981, 642</value>
+    <value>981, 677</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
