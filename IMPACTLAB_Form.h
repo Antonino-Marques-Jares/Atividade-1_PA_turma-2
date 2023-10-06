@@ -208,7 +208,7 @@ namespace IMPACTLABGUI2023 {
 				// lblMensagem
 				// 
 				resources->ApplyResources(this->lblMensagem, L"lblMensagem");
-				this->lblMensagem->ForeColor = System::Drawing::Color::IndianRed;
+				this->lblMensagem->ForeColor = System::Drawing::Color::Black;
 				this->lblMensagem->Name = L"lblMensagem";
 				// 
 				// lblTempo
