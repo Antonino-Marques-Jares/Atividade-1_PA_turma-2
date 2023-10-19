@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -117,83 +117,80 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btopen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 18</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btopen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="btloadimg.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="btopen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 61</value>
+  <data name="btloadimg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btloadimg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 21</value>
+  </data>
+  <data name="btloadimg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 60</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btopen.TabIndex" type="System.Int32, mscorlib">
+  <data name="btloadimg.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="btopen.Text" xml:space="preserve">
-    <value>Open</value>
+  <data name="btloadimg.Text" xml:space="preserve">
+    <value>Carregar Imagem</value>
   </data>
-  <data name="&gt;&gt;btopen.Name" xml:space="preserve">
-    <value>btopen</value>
+  <data name="&gt;&gt;btloadimg.Name" xml:space="preserve">
+    <value>btloadimg</value>
   </data>
-  <data name="&gt;&gt;btopen.Type" xml:space="preserve">
+  <data name="&gt;&gt;btloadimg.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btopen.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btloadimg.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btopen.ZOrder" xml:space="preserve">
-    <value>15</value>
+  <data name="&gt;&gt;btloadimg.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
-  <data name="btExit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 12pt, style=Bold</value>
+  <data name="exit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="btExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>860, 544</value>
+  <data name="exit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>734, 483</value>
   </data>
-  <data name="btExit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 37</value>
   </data>
-  <data name="btExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 54</value>
-  </data>
-  <data name="btExit.TabIndex" type="System.Int32, mscorlib">
+  <data name="exit.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="btExit.Text" xml:space="preserve">
+  <data name="exit.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
-  <data name="&gt;&gt;btExit.Name" xml:space="preserve">
-    <value>btExit</value>
+  <data name="&gt;&gt;exit.Name" xml:space="preserve">
+    <value>exit</value>
   </data>
-  <data name="&gt;&gt;btExit.Type" xml:space="preserve">
+  <data name="&gt;&gt;exit.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btExit.Parent" xml:space="preserve">
+  <data name="&gt;&gt;exit.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btExit.ZOrder" xml:space="preserve">
-    <value>14</value>
+  <data name="&gt;&gt;exit.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Input_Image_Box.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="Input_Image_Box.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 229</value>
-  </data>
-  <data name="Input_Image_Box.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="Input_Image_Box.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>646, 482</value>
+    <value>15, 180</value>
   </data>
   <data name="Input_Image_Box.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 369</value>
+    <value>340, 310</value>
   </data>
   <data name="Input_Image_Box.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
   </data>
   <data name="Input_Image_Box.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;Input_Image_Box.Name" xml:space="preserve">
     <value>Input_Image_Box</value>
@@ -205,25 +202,25 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Input_Image_Box.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>11</value>
+  </data>
+  <data name="Output_Image_Box.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="Output_Image_Box.Location" type="System.Drawing.Point, System.Drawing">
-    <value>441, 229</value>
+    <value>356, 180</value>
   </data>
   <data name="Output_Image_Box.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="Output_Image_Box.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>646, 482</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="Output_Image_Box.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 369</value>
+    <value>340, 310</value>
   </data>
   <data name="Output_Image_Box.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
   </data>
   <data name="Output_Image_Box.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;Output_Image_Box.Name" xml:space="preserve">
     <value>Output_Image_Box</value>
@@ -235,76 +232,34 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Output_Image_Box.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 16.2pt, style=Bold</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>443, 13</value>
-  </data>
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>525, 33</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Grupo II - Turma II - PAVIC LAB - UFAC</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 16.2pt, style=Bold</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>443, 46</value>
-  </data>
-  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>388, 33</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Processamento de Imagens</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="cmbFiltro.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 10.2pt, style=Bold</value>
+  <data name="btnRun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 300</value>
+  </data>
+  <data name="btnRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 50</value>
+  </data>
+  <data name="btnRun.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnRun.Text" xml:space="preserve">
+    <value>Aplicar Filtro</value>
+  </data>
+  <data name="&gt;&gt;btnRun.Name" xml:space="preserve">
+    <value>btnRun</value>
+  </data>
+  <data name="&gt;&gt;btnRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRun.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRun.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="cmbFiltro.Items" xml:space="preserve">
     <value>CONVERTER PARA VERMELHO </value>
@@ -316,16 +271,16 @@
     <value>RGB TO GRAYSCALE</value>
   </data>
   <data name="cmbFiltro.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 137</value>
+    <value>16, 112</value>
   </data>
   <data name="cmbFiltro.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="cmbFiltro.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 27</value>
+    <value>230, 27</value>
   </data>
   <data name="cmbFiltro.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;cmbFiltro.Name" xml:space="preserve">
     <value>cmbFiltro</value>
@@ -337,10 +292,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cmbFiltro.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="cmbProcessamento.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 10.2pt, style=Bold</value>
+    <value>8</value>
   </data>
   <data name="cmbProcessamento.Items" xml:space="preserve">
     <value>CPU</value>
@@ -349,16 +301,16 @@
     <value>GPU</value>
   </data>
   <data name="cmbProcessamento.Location" type="System.Drawing.Point, System.Drawing">
-    <value>439, 138</value>
+    <value>280, 112</value>
   </data>
   <data name="cmbProcessamento.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="cmbProcessamento.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 27</value>
+    <value>262, 27</value>
   </data>
   <data name="cmbProcessamento.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
+    <value>10</value>
   </data>
   <data name="&gt;&gt;cmbProcessamento.Name" xml:space="preserve">
     <value>cmbProcessamento</value>
@@ -370,7 +322,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cmbProcessamento.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -378,20 +330,23 @@
   <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
   </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 109</value>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 89</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 24</value>
+    <value>196, 19</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
+    <value>30</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Filtro:</value>
+    <value>Tipo de Processamento:</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
@@ -403,73 +358,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 12pt, style=Bold</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>435, 109</value>
-  </data>
-  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 24</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Processamento:</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 12pt, style=Bold</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 201</value>
-  </data>
-  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 24</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Antes:</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -477,17 +366,17 @@
   <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
   </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>437, 201</value>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 158</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 24</value>
+    <value>69, 19</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
+    <value>34</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>Depois:</value>
@@ -502,36 +391,75 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
-  <data name="btnExecutar.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
   </data>
-  <data name="btnExecutar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>860, 389</value>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="btnExecutar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 158</value>
   </data>
-  <data name="btnExecutar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 52</value>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 19</value>
   </data>
-  <data name="btnExecutar.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
   </data>
-  <data name="btnExecutar.Text" xml:space="preserve">
-    <value>Executar</value>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Antes:</value>
   </data>
-  <data name="&gt;&gt;btnExecutar.Name" xml:space="preserve">
-    <value>btnExecutar</value>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
   </data>
-  <data name="&gt;&gt;btnExecutar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnExecutar.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnExecutar.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 89</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 19</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Tipo de Filtro:</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
@@ -540,20 +468,20 @@
   <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
   </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 602</value>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 501</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>345, 24</value>
+    <value>323, 19</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
+    <value>37</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Tempo de execução em segundos :</value>
+    <value>Tempo de execução em microsegundos :</value>
   </data>
   <data name="&gt;&gt;label8.Name" xml:space="preserve">
     <value>label8</value>
@@ -567,56 +495,54 @@
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="lblMensagem.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblMensagem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 7.8pt</value>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 16.2pt, style=Bold</value>
   </data>
-  <data name="lblMensagem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 641</value>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="lblMensagem.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 23</value>
   </data>
-  <data name="lblMensagem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>19, 16</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 52</value>
   </data>
-  <data name="lblMensagem.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
   </data>
-  <data name="lblMensagem.Text" xml:space="preserve">
-    <value>...</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Grupo II - Turma II - PAVIC LAB - UFAC
+Programação Paralela</value>
   </data>
-  <data name="&gt;&gt;lblMensagem.Name" xml:space="preserve">
-    <value>lblMensagem</value>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;lblMensagem.Type" xml:space="preserve">
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblMensagem.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblMensagem.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="lblTempo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblTempo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 12pt, style=Bold</value>
-  </data>
   <data name="lblTempo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>435, 602</value>
-  </data>
-  <data name="lblTempo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>356, 501</value>
   </data>
   <data name="lblTempo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 24</value>
+    <value>18, 19</value>
   </data>
   <data name="lblTempo.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
+    <value>39</value>
   </data>
   <data name="lblTempo.Text" xml:space="preserve">
     <value>0</value>
@@ -637,28 +563,25 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>12, 24</value>
+    <value>10, 19</value>
   </data>
-  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>981, 677</value>
+    <value>829, 536</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>IMPACTLAB PROJECT 2023</value>
+    <value>Pavic Lab 2023</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>IMPACTLAB_Form</value>
+    <value>PavicLab2023_G2_Form</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
